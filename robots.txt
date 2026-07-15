@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you.html
+Disallow: /*?
+Disallow: /api/
+Crawl-delay: 1
+
+# Allow Googlebot full access
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Allow image indexing
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Block aggressive SEO crawlers
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: https://www.MediEscortChina.com/sitemap.xml

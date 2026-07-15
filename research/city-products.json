@@ -1,0 +1,1538 @@
+{
+  "beijing": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "PUMC Hospital",
+        "Beijing Union"
+      ],
+      "price_cny": 720,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "PUMC Hospital",
+        "Beijing Dental Center"
+      ],
+      "price_cny": 180,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "PUMC Hospital",
+        "Beijing Eye Hospital"
+      ],
+      "price_cny": 145,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "Ciming Health",
+        "Beijing TCM Hospital"
+      ],
+      "price_cny": 540,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "PUMC Hospital",
+        "Beijing Women's Hospital"
+      ],
+      "price_cny": 900,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Beijing Union",
+        "Beijing Dermatology Center"
+      ],
+      "price_cny": 900,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "shanghai": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Fudan Cancer",
+        "Ruijin Hospital"
+      ],
+      "price_cny": 720,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "Fudan Cancer",
+        "Shanghai Dental Center"
+      ],
+      "price_cny": 180,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "Fudan Cancer",
+        "Shanghai Eye Hospital"
+      ],
+      "price_cny": 145,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "Meinian Health",
+        "Shanghai TCM Hospital"
+      ],
+      "price_cny": 540,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Fudan Cancer",
+        "Shanghai Women's Hospital"
+      ],
+      "price_cny": 900,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Ruijin Hospital",
+        "Shanghai Dermatology Center"
+      ],
+      "price_cny": 900,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "guangzhou": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "SYSU Cancer",
+        "Nanfang Hospital"
+      ],
+      "price_cny": 720,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "SYSU Cancer",
+        "Guangzhou Dental Center"
+      ],
+      "price_cny": 180,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "SYSU Cancer",
+        "Guangzhou Eye Hospital"
+      ],
+      "price_cny": 145,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "iKang Health",
+        "Guangzhou TCM Hospital"
+      ],
+      "price_cny": 540,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "SYSU Cancer",
+        "Guangzhou Women's Hospital"
+      ],
+      "price_cny": 900,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Nanfang Hospital",
+        "Guangzhou Dermatology Center"
+      ],
+      "price_cny": 900,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "shenzhen": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "PKU Shenzhen",
+        "Shenzhen People's"
+      ],
+      "price_cny": 720,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "PKU Shenzhen",
+        "Shenzhen Dental Center"
+      ],
+      "price_cny": 180,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "PKU Shenzhen",
+        "Shenzhen Eye Hospital"
+      ],
+      "price_cny": 145,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "Ciming Health",
+        "Shenzhen TCM Hospital"
+      ],
+      "price_cny": 540,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "PKU Shenzhen",
+        "Shenzhen Women's Hospital"
+      ],
+      "price_cny": 900,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Shenzhen People's",
+        "Shenzhen Dermatology Center"
+      ],
+      "price_cny": 900,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "wuhan": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Tongji Hospital",
+        "Union Hospital"
+      ],
+      "price_cny": 600,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "Tongji Hospital",
+        "Wuhan Dental Center"
+      ],
+      "price_cny": 150,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "Tongji Hospital",
+        "Wuhan Eye Hospital"
+      ],
+      "price_cny": 120,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "Ciming Health",
+        "Wuhan TCM Hospital"
+      ],
+      "price_cny": 450,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Tongji Hospital",
+        "Wuhan Women's Hospital"
+      ],
+      "price_cny": 750,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Union Hospital",
+        "Wuhan Dermatology Center"
+      ],
+      "price_cny": 750,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "hangzhou": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Sir Run Run Shaw",
+        "ZJU 1st Hospital"
+      ],
+      "price_cny": 600,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "Sir Run Run Shaw",
+        "Hangzhou Dental Center"
+      ],
+      "price_cny": 150,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "Sir Run Run Shaw",
+        "Hangzhou Eye Hospital"
+      ],
+      "price_cny": 120,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "Meinian Health",
+        "Hangzhou TCM Hospital"
+      ],
+      "price_cny": 450,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Sir Run Run Shaw",
+        "Hangzhou Women's Hospital"
+      ],
+      "price_cny": 750,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "ZJU 1st Hospital",
+        "Hangzhou Dermatology Center"
+      ],
+      "price_cny": 750,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "chongqing": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Southwest Hospital",
+        "Xinqiao Hospital"
+      ],
+      "price_cny": 600,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "Southwest Hospital",
+        "Chongqing Dental Center"
+      ],
+      "price_cny": 150,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "Southwest Hospital",
+        "Chongqing Eye Hospital"
+      ],
+      "price_cny": 120,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "iKang Health",
+        "Chongqing TCM Hospital"
+      ],
+      "price_cny": 450,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "Southwest Hospital",
+        "Chongqing Women's Hospital"
+      ],
+      "price_cny": 750,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Xinqiao Hospital",
+        "Chongqing Dermatology Center"
+      ],
+      "price_cny": 750,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ],
+  "chengdu": [
+    {
+      "icon": "🩺",
+      "title_en": "Health Checkup — Basic",
+      "title_zh": "基础健康体检套餐",
+      "includes_en": [
+        "Blood routine",
+        "Urine routine",
+        "Liver & kidney function",
+        "Blood lipids",
+        "Blood glucose",
+        "ECG",
+        "Chest X-ray",
+        "Abdominal ultrasound",
+        "English report"
+      ],
+      "includes_zh": [
+        "血常规",
+        "尿常规",
+        "肝肾功能",
+        "血脂",
+        "血糖",
+        "心电图",
+        "胸片",
+        "腹部B超",
+        "英文报告"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "West China Hospital",
+        "Sichuan Provincial"
+      ],
+      "price_cny": 600,
+      "gift_en": "Free hospital pickup within 10km",
+      "gift_zh": "10公里内免费接送",
+      "popular": true
+    },
+    {
+      "icon": "🦷",
+      "title_en": "Dental Care — Cleaning + Exam",
+      "title_zh": "洗牙检查套餐",
+      "includes_en": [
+        "Full oral exam",
+        "Professional cleaning (ultrasonic)",
+        "Polishing",
+        "Fluoride treatment",
+        "Treatment plan in English",
+        "Digital X-ray (if needed)"
+      ],
+      "includes_zh": [
+        "全口检查",
+        "超声波洗牙",
+        "抛光",
+        "氟保护",
+        "英文治疗方案",
+        "数字X光（如需）"
+      ],
+      "duration_en": "1-1.5 hours",
+      "duration_zh": "1-1.5小时",
+      "hospitals": [
+        "West China Hospital",
+        "Chengdu Dental Center"
+      ],
+      "price_cny": 150,
+      "gift_en": "Free dental kit",
+      "gift_zh": "免费口腔护理套装",
+      "popular": true
+    },
+    {
+      "icon": "👁️",
+      "title_en": "Eye Care — Comprehensive Exam",
+      "title_zh": "全面眼科检查套餐",
+      "includes_en": [
+        "Visual acuity test",
+        "Intraocular pressure",
+        "Retinal exam",
+        "Corneal topography",
+        "Cataract screening",
+        "English report + doctor notes"
+      ],
+      "includes_zh": [
+        "视力检查",
+        "眼压测量",
+        "眼底检查",
+        "角膜地形图",
+        "白内障筛查",
+        "英文报告+医生建议"
+      ],
+      "duration_en": "1.5-2 hours",
+      "duration_zh": "1.5-2小时",
+      "hospitals": [
+        "West China Hospital",
+        "Chengdu Eye Hospital"
+      ],
+      "price_cny": 120,
+      "gift_en": "LASIK consultation voucher (¥200 off)",
+      "gift_zh": "近视手术咨询券（立减¥200）",
+      "popular": false
+    },
+    {
+      "icon": "💆",
+      "title_en": "TCM Wellness — 5 Sessions",
+      "title_zh": "中医养生调理套餐（5次）",
+      "includes_en": [
+        "Initial TCM consultation (pulse diagnosis)",
+        "5 acupuncture sessions",
+        "Cupping therapy (2 sessions)",
+        "Herbal tea prescription",
+        "Dietary advice in English"
+      ],
+      "includes_zh": [
+        "中医初诊（把脉）",
+        "针灸5次",
+        "拔罐2次",
+        "养生茶饮方",
+        "英文饮食建议"
+      ],
+      "duration_en": "Spread over 3-5 days",
+      "duration_zh": "分3-5天完成",
+      "hospitals": [
+        "Ciming Health",
+        "Chengdu TCM Hospital"
+      ],
+      "price_cny": 450,
+      "gift_en": "Traditional Chinese medicine gift pack",
+      "gift_zh": "中药养生礼包",
+      "popular": false
+    },
+    {
+      "icon": "🌸",
+      "title_en": "Women's Health — HPV + TCT",
+      "title_zh": "女性健康筛查套餐",
+      "includes_en": [
+        "Gynecological exam",
+        "HPV DNA testing (26 types)",
+        "TCT (liquid-based cytology)",
+        "Breast ultrasound",
+        "Pelvic ultrasound",
+        "English report + follow-up advice"
+      ],
+      "includes_zh": [
+        "妇科检查",
+        "HPV分型检测（26型）",
+        "TCT液基细胞学",
+        "乳腺B超",
+        "盆腔B超",
+        "英文报告+随访建议"
+      ],
+      "duration_en": "2-3 hours",
+      "duration_zh": "2-3小时",
+      "hospitals": [
+        "West China Hospital",
+        "Chengdu Women's Hospital"
+      ],
+      "price_cny": 750,
+      "gift_en": "Private female doctor option",
+      "gift_zh": "可选女医生",
+      "popular": true
+    },
+    {
+      "icon": "✨",
+      "title_en": "Aesthetic — Skin Rejuvenation",
+      "title_zh": "医美皮肤管理套餐",
+      "includes_en": [
+        "Skin analysis (VISIA)",
+        "Deep cleansing facial",
+        "Hydration/Moisturizing treatment",
+        "LED light therapy",
+        "Sunscreen & aftercare kit",
+        "English consultation with dermatologist"
+      ],
+      "includes_zh": [
+        "皮肤检测（VISIA）",
+        "深层清洁",
+        "水光/补水",
+        "LED光疗",
+        "防晒护理包",
+        "英文皮肤科咨询"
+      ],
+      "duration_en": "2-2.5 hours",
+      "duration_zh": "2-2.5小时",
+      "hospitals": [
+        "Sichuan Provincial",
+        "Chengdu Dermatology Center"
+      ],
+      "price_cny": 750,
+      "gift_en": "Premium skincare sample set",
+      "gift_zh": "高端护肤试用套装",
+      "popular": false
+    }
+  ]
+}

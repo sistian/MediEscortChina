@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Book Hospital Appointment in China | Online Medical Booking Service</title>
+<meta name="description" content="Book your hospital appointment in China online. We help you find the right Chinese-speaking doctor and schedule your visit. Only $15 per appointment.">
+<meta name="keywords" content="hospital appointment China, book doctor online, medical appointment booking, Chinese hospital booking">
+<meta name="author" content="MediEscortChina">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2B4C59">
+<link rel="canonical" href="https://www.mediescortchina.com/appt-booking.html">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="180x180" href="favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.appt-hero { background: linear-gradient(135deg, var(--navy) 0%, #3D6A7A 100%); color: var(--white); padding: 80px 0 60px; }
+.appt-hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 12px; }
+.appt-hero p { font-size: 1.1rem; opacity: 0.85; max-width: 600px; }
+.booking-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start; }
+.booking-form-card { background: var(--white); border-radius: var(--radius); padding: 40px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-100); }
+.appt-sidebar { display: flex; flex-direction: column; gap: 20px; }
+.price-card { background: var(--white); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow-sm); border: 1px solid var(--gray-100); text-align: center; }
+.price-card .price-tag { font-size: 2.5rem; font-weight: 800; color: var(--coral); margin: 8px 0; }
+.price-card .price-sub { font-size: 0.9rem; color: var(--gray-500); }
+.price-card .price-note { background: var(--mint-pale); border-radius: var(--radius-sm); padding: 12px 16px; margin-top: 16px; font-size: 0.85rem; color: var(--navy); }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+.form-group label .required { color: var(--coral); }
+.form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px 16px; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); font-size: 0.9rem; font-family: inherit; transition: var(--transition); background: var(--cream); }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--mint); background: var(--white); box-shadow: 0 0 0 3px var(--mint-light); }
+.form-group textarea { min-height: 120px; resize: vertical; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.how-it-works { display: flex; flex-direction: column; gap: 16px; }
+.step-item { display: flex; align-items: flex-start; gap: 16px; }
+.step-item .num { width: 36px; height: 36px; border-radius: 50%; background: var(--mint); color: var(--navy); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.9rem; flex-shrink: 0; }
+.step-item h4 { font-size: 0.95rem; font-weight: 600; color: var(--navy); margin-bottom: 4px; }
+.step-item p { font-size: 0.85rem; color: var(--gray-600); margin: 0; }
+.payment-section { background: var(--mint-pale); border-radius: var(--radius); padding: 24px; margin-top: 24px; border-left: 4px solid var(--mint); }
+.payment-section h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 16px; }
+.qr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; text-align: center; }
+.qr-item { background: var(--white); border-radius: var(--radius-sm); padding: 16px; }
+.qr-item img { width: 140px; height: 140px; object-fit: contain; border-radius: var(--radius-sm); display: block; margin: 0 auto 8px; }
+.qr-item span { font-size: 0.8rem; color: var(--gray-600); }
+.whatsapp-section { margin-top: 16px; text-align: center; }
+.whatsapp-section a { display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; padding: 12px 24px; border-radius: var(--radius-pill); font-weight: 600; text-decoration: none; }
+@media (max-width: 1024px) { .booking-grid { grid-template-columns: 1fr; gap: 24px; } .appt-hero h1 { font-size: 2rem; } }
+@media (max-width: 768px) { .booking-grid { grid-template-columns: 1fr; } .appt-hero { padding: 60px 0 40px; } .booking-form-card { padding: 24px; } .form-row { grid-template-columns: 1fr; } .qr-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .appt-hero h1 { font-size: 1.5rem; } .booking-form-card { padding: 16px; } .price-card .price-tag { font-size: 2rem; } }
+</style>
+<script src="js/security.js"></script>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar" role="banner">
+    <div class="container">
+      <div class="hours"><span>Mon-Sun: 8:00 AM - 1:00 AM CST (UTC+8) | English-speaking staff available</span></div>
+      <div><a href="tel:+8615527771775">+86-155-2777-1775</a><span style="margin:0 8px;">|</span><a href="mailto:sistian@foxmail.com">sistian@foxmail.com</a></div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <a href="index.html" class="logo"><span style="display:inline-flex; align-items:center; gap:12px;"><img src="images/logo.png" alt="MediEscortChina" style="height:42px; width:42px; border-radius:50%; object-fit:cover;"><span style="font-size:0.8rem; color:var(--gray-500); font-family:SimHei,Heiti SC,Microsoft YaHei,Noto Sans SC,sans-serif; letter-spacing:2px; white-space:nowrap; font-weight:600;">之二虫®</span></span><span style="display:inline-flex; flex-direction:column; line-height:1;"><span style="font-size:1.6rem; font-weight:800; letter-spacing:-0.5px; color:var(--navy);"><span style="color:var(--mint-dark);">Medi</span>Escort<span style="color:var(--coral);">China</span></span><small style="font-size:0.65rem; color:var(--gray-400); letter-spacing:1.5px; text-transform:uppercase; margin-top:2px;">Premium Medical Tourism</small></span></a>
+      <div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="why-china.html">Why China</a><a href="services.html">Services</a><a href="cities.html">Cities</a><a href="faq.html">FAQ</a><a href="blog.html">Blog</a><a href="quote.html">Get Quote</a><a href="contact.html">Contact</a></div>
+      <button class="mobile-menu-btn" data-action="toggle-menu">☰</button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="appt-hero">
+    <div class="container">
+      <h1>Book Your Hospital Appointment</h1>
+      <p>Share your medical condition and we'll find the right Chinese-speaking doctor for you. We'll handle the booking and send you all the details.</p>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="booking-grid">
+        <div class="booking-form-card">
+          <h2 style="font-size:1.5rem; font-weight:700; color:var(--navy); margin-bottom:8px;">Appointment Request</h2>
+          <p style="font-size:0.9rem; color:var(--gray-500); margin-bottom:24px;">Fill in your details below. We'll get back to you within 24 hours with your appointment confirmation.</p>
+
+          <form id="apptForm" action="https://formsubmit.co/sistian@foxmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Hospital Appointment Booking - MediEscortChina">
+            <input type="hidden" name="_next" value="https://www.mediescortchina.com/thank-you.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="booking_type" value="Hospital Appointment Booking">
+            <input type="hidden" name="price_usd" value="$15">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name <span class="required">*</span></label>
+                <input type="text" name="first_name" required placeholder="John">
+              </div>
+              <div class="form-group">
+                <label>Last Name <span class="required">*</span></label>
+                <input type="text" name="last_name" required placeholder="Smith">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Email <span class="required">*</span></label>
+              <input type="email" name="email" required placeholder="john@example.com">
+            </div>
+
+            <div class="form-group">
+              <label>Phone / WhatsApp <span class="required">*</span></label>
+              <input type="tel" name="phone" required placeholder="+1 234 567 8900">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Preferred City <span class="required">*</span></label>
+                <select name="preferred_city" required>
+                  <option value="">Select a city</option>
+                  <option value="Beijing">Beijing</option>
+                  <option value="Shanghai">Shanghai</option>
+                  <option value="Guangzhou">Guangzhou</option>
+                  <option value="Shenzhen">Shenzhen</option>
+                  <option value="Chengdu">Chengdu</option>
+                  <option value="Hangzhou">Hangzhou</option>
+                  <option value="Wuhan">Wuhan</option>
+                  <option value="Xi'an">Xi'an</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Preferred Hospital (if any)</label>
+                <input type="text" name="preferred_hospital" placeholder="e.g. Peking Union Medical College Hospital">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Preferred Date <span class="required">*</span></label>
+                <input type="date" name="preferred_date" required>
+              </div>
+              <div class="form-group">
+                <label>Department / Specialty <span class="required">*</span></label>
+                <select name="department" required>
+                  <option value="">Select department</option>
+                  <option value="General Medicine">General Medicine</option>
+                  <option value="Cardiology">Cardiology</option>
+                  <option value="Oncology">Oncology</option>
+                  <option value="Dermatology">Dermatology</option>
+                  <option value="Orthopedics">Orthopedics</option>
+                  <option value="ENT">ENT (Ear, Nose, Throat)</option>
+                  <option value="Dental">Dental</option>
+                  <option value="Ophthalmology">Ophthalmology</option>
+                  <option value="Gynecology">Gynecology</option>
+                  <option value="Urology">Urology</option>
+                  <option value="Endocrinology">Endocrinology</option>
+                  <option value="Neurology">Neurology</option>
+                  <option value="Gastroenterology">Gastroenterology</option>
+                  <option value="TCM">Traditional Chinese Medicine</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Medical Condition / Symptoms <span class="required">*</span></label>
+              <textarea name="medical_condition" rows="4" required placeholder="Please describe your medical condition, symptoms, and any specific requirements. The more details you provide, the better we can match you with the right doctor."></textarea>
+            </div>
+
+            <div class="form-group">
+              <label>Additional Notes</label>
+              <textarea name="additional_notes" rows="2" placeholder="Any allergies, previous treatments, or special requests..."></textarea>
+            </div>
+
+            <div class="payment-section">
+              <h3>💳 Payment — $15 per Appointment Booking</h3>
+              <p style="font-size:0.85rem; color:var(--gray-600); margin-bottom:16px;">Please complete the payment after submitting this form. We'll confirm your appointment within 24 hours.</p>
+              <div class="qr-grid">
+                <div class="qr-item" data-action="open-payment-qr" data-qr-type="alipay" style="cursor:pointer;">
+                  <img src="images/pay-alipay.png" alt="Alipay QR Code" style="width:180px; height:180px;">
+                  <span>Alipay — Click to enlarge</span>
+                </div>
+                <div class="qr-item" data-action="open-payment-qr" data-qr-type="paypal" style="cursor:pointer;">
+                  <img src="images/pay-paypal.png" alt="PayPal QR Code" style="width:180px; height:180px;">
+                  <span>PayPal — Click to enlarge</span>
+                </div>
+              </div>
+              <div class="whatsapp-section">
+                <a href="https://wa.me/8615527771775" target="_blank">📱 Chat on WhatsApp for Payment Help</a>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large" style="width:100%; margin-top:24px;">Submit Appointment Request — $15</button>
+            <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:var(--gray-400);">We'll confirm your appointment within 24 hours via email or WhatsApp</p>
+          </form>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="appt-sidebar">
+          <div class="price-card">
+            <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:8px;">Appointment Booking Fee</h3>
+            <div class="price-tag">$15</div>
+            <div class="price-sub">per appointment</div>
+            <div class="price-note">This fee covers our service to find the right doctor and book your appointment. Hospital fees are paid separately.</div>
+          </div>
+
+          <div class="price-card" style="text-align:left;">
+            <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:16px;">How It Works</h3>
+            <div class="how-it-works">
+              <div class="step-item">
+                <div class="num">1</div>
+                <div>
+                  <h4>Submit Your Request</h4>
+                  <p>Fill in your medical condition and preferred city/hospital.</p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="num">2</div>
+                <div>
+                  <h4>We Find the Right Doctor</h4>
+                  <p>Our team matches you with a suitable Chinese-speaking specialist.</p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="num">3</div>
+                <div>
+                  <h4>Pay $15 Booking Fee</h4>
+                  <p>Complete the payment via Alipay or PayPal.</p>
+                </div>
+              </div>
+              <div class="step-item">
+                <div class="num">4</div>
+                <div>
+                  <h4>Receive Confirmation</h4>
+                  <p>We send you the appointment details, hospital address, and instructions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-card" style="text-align:left;">
+            <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:12px;">Need Help?</h3>
+            <p style="font-size:0.85rem; color:var(--gray-600); margin-bottom:16px;">Contact us directly via WhatsApp for instant assistance.</p>
+            <a href="https://wa.me/8615527771775" class="btn btn-primary" style="width:100%; justify-content:center;">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" style="background:var(--navy); color:var(--gray-300); padding:64px 0 32px;" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="color:var(--white); margin-bottom:16px;"><span style="color:var(--mint);">Medi</span>Escort<span style="color:var(--coral);">China</span></div>
+          <p style="font-size:0.85rem; opacity:0.7; line-height:1.7; margin-bottom:20px;">Professional English medical escort and hospital guide service for international patients in China.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Full Body Checkup</a></li>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Dental Care</a></li>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">TCM</a></li>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Surgery</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Cities</h4>
+          <ul>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Beijing</a></li>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Shanghai</a></li>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Guangzhou</a></li>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">View All</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">About Us</a></li>
+            <li><a href="blog.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Blog</a></li>
+            <li><a href="contact.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Contact</a></li>
+            <li><a href="privacy.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,0.08); padding:20px 0; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+        <p style="font-size:0.75rem; opacity:0.5;">© 2026 MediEscortChina. Wuhan City Zhierchong Culture and Tourism Co., Ltd.</p>
+        <p style="font-size:0.75rem; opacity:0.5;"><a href="license.html" style="color:var(--gray-200);">Business License</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Payment QR Modal -->
+  <div class="modal-overlay" id="paymentQRModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; padding:24px;" data-action="close-payment-qr-overlay">
+    <div style="background:var(--white); border-radius:var(--radius-lg); padding:32px; max-width:460px; width:100%; text-align:center; box-shadow:var(--shadow-xl); position:relative;" data-action="stop-propagation">
+      <button data-action="close-payment-qr" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:var(--gray-400); cursor:pointer;">×</button>
+      <h3 style="font-size:1.2rem; font-weight:700; color:var(--navy); margin-bottom:8px;" id="paymentQRTitle">Scan to Pay</h3>
+      <p style="font-size:0.9rem; color:var(--gray-600); margin-bottom:20px;">Scan the QR code with your phone to complete payment</p>
+      <img id="paymentQRImage" src="" alt="Payment QR" style="width:100%; max-width:360px; border-radius:var(--radius-sm); display:block; margin:0 auto;">
+      <p style="font-size:0.85rem; color:var(--gray-400); margin-top:16px;">After payment, please send a screenshot to us via WhatsApp</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+  (function() {
+    const paymentQRModal = document.getElementById('paymentQRModal');
+    const paymentQRImage = document.getElementById('paymentQRImage');
+    const paymentQRTitle = document.getElementById('paymentQRTitle');
+
+    document.addEventListener('click', function(e) {
+      const target = e.target.closest('[data-action]');
+      if (!target) return;
+
+      const action = target.dataset.action;
+
+      if (action === 'open-payment-qr') {
+        e.preventDefault();
+        const qrType = target.dataset.qrType;
+        if (qrType === 'alipay') {
+          paymentQRImage.src = 'images/pay-alipay.png';
+          paymentQRTitle.textContent = 'Scan with Alipay';
+        } else if (qrType === 'paypal') {
+          paymentQRImage.src = 'images/pay-paypal.png';
+          paymentQRTitle.textContent = 'Scan with PayPal';
+        }
+        paymentQRModal.style.display = 'flex';
+      }
+
+      if (action === 'close-payment-qr') {
+        paymentQRModal.style.display = 'none';
+      }
+    });
+
+    if (paymentQRModal) {
+      paymentQRModal.addEventListener('click', function(e) {
+        if (e.target === paymentQRModal) {
+          paymentQRModal.style.display = 'none';
+        }
+      });
+    }
+  })();
+  </script>
+</body>
+</html>

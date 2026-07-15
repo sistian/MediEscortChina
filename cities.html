@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Cities We Serve | Medical Escort in Beijing, Shanghai, Chengdu & More</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.mediescortchina.com; connect-src 'self' https://formsubmit.co; frame-src 'self'; base-uri 'self'; form-action 'self' https://formsubmit.co; upgrade-insecure-requests;">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+
+<meta name="description" content="MediEscortChina serves 32+ cities including Beijing, Shanghai, Chengdu, Chongqing, Guangzhou, Hangzhou, Shenzhen, Wuhan. English hospital guide in every city." />
+<meta name="keywords" content="Beijing English medical escort, Shanghai hospital interpreter, Guangzhou hospital guide foreigners, Wuhan medical escort, Chengdu English hospital companion, city medical escort China" />
+<meta name="author" content="MediEscortChina" />
+<meta name="publisher" content="Wuhan City Zhierchong Culture and Tourism Co., Ltd." />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="theme-color" content="#2B4C59" />
+<link rel="canonical" href="https://www.mediescortchina.com/cities.html" />
+<link rel="alternate" hreflang="en" href="https://www.mediescortchina.com/cities.html" />
+<link rel="alternate" hreflang="zh-CN" href="https://www.mediescortchina.com/cities.html" />
+<link rel="alternate" hreflang="x-default" href="https://www.mediescortchina.com/cities.html" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<meta property="og:title" content="Cities We Serve | Medical Escort in Beijing, Shanghai, Chengdu & More" />
+<meta property="og:description" content="MediEscortChina serves 32+ cities including Beijing, Shanghai, Chengdu, Chongqing, Guangzhou, Hangzhou, Shenzhen, Wuhan. English hospital guide in every city." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.mediescortchina.com/cities.html" />
+<meta property="og:image" content="https://www.mediescortchina.com/images/og-cities.jpg" />
+<meta property="og:site_name" content="MediEscortChina" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Cities We Serve | Medical Escort in Beijing, Shanghai, Chengdu & More" />
+<meta name="twitter:description" content="MediEscortChina serves 32+ cities including Beijing, Shanghai, Chengdu, Chongqing, Guangzhou, Hangzhou, Shenzhen, Wuhan. English hospital guide in every city." />
+<meta name="twitter:image" content="https://www.mediescortchina.com/images/og-cities.jpg" />
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .cities-hero {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      color: var(--white);
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+    .cities-hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 16px; }
+    .cities-hero p { font-size: 1.1rem; opacity: 0.85; max-width: 600px; margin: 0 auto; }
+    .tier-label {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 4px 12px;
+      border-radius: var(--radius-pill);
+      margin-bottom: 12px;
+    }
+    .tier-1 { background: rgba(149,188,204,0.2); color: var(--mint); }
+    .tier-2 { background: rgba(152,128,128,0.2); color: var(--coral); }
+    .city-detail-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 32px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--gray-100);
+      transition: var(--transition);
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .city-detail-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-xl);
+      border-color: var(--mint-light);
+    }
+    .city-detail-card .city-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .city-detail-card .city-color {
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+    .city-detail-card .city-info h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--navy);
+      margin-bottom: 4px;
+    }
+    .city-detail-card .city-info .specialty {
+      font-size: 0.8rem;
+      color: var(--gray-400);
+    }
+    .city-detail-card .city-desc {
+      font-size: 0.85rem;
+      color: var(--gray-600);
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+    .city-detail-card .city-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+    .city-detail-card .meta-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: var(--radius-pill);
+      background: var(--mint-pale);
+      color: var(--mint-dark);
+    }
+    .city-detail-card .explore-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--mint-dark);
+    }
+    .city-detail-card:hover .explore-link { gap: 10px; } @media (max-width: 1024px) { .cities-hero h1 { font-size: 2.2rem; } .city-detail-card { padding: 24px; } } @media (max-width: 768px) { .cities-hero h1 { font-size: 1.8rem; } .cities-hero { padding: 60px 0 40px; } .city-detail-card { padding: 20px; } .city-detail-card .city-header { gap: 12px; } .city-detail-card .city-color { width: 48px; height: 48px; font-size: 1.3rem; } .city-detail-card .city-info h3 { font-size: 1.1rem; } } @media (max-width: 480px) { .cities-hero h1 { font-size: 1.5rem; } .city-detail-card { padding: 16px; } .city-detail-card .city-color { width: 40px; height: 40px; font-size: 1.1rem; } .city-detail-card .city-info h3 { font-size: 1rem; } .city-detail-card .city-desc { font-size: 0.8rem; } }
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "English Medical Escort in Major China Cities | MediEscortChina",
+  "description": "English medical escort and hospital interpreter services in Beijing, Shanghai, Guangzhou, Shenzhen, Wuhan, Hangzhou, Chengdu, Chongqing. Trusted hospital escort for foreign patients across China.",
+  "url": "https://www.mediescortchina.com/cities.html",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.mediescortchina.com/cities.html"
+  },
+  "medicalAudience": {
+    "@type": "MedicalAudience",
+    "audienceType": "International patients seeking medical treatment in China"
+  },
+  "provider": {
+    "@type": "MedicalOrganization",
+    "name": "MediEscortChina",
+    "url": "https://www.mediescortchina.com",
+    "logo": "https://www.mediescortchina.com/images/logo.png",
+    "telephone": "+86-155-2777-1775",
+    "email": "sistian@foxmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Room 2622, Henglong Plaza Office Bldg, 688 Jinghan Ave",
+      "addressLocality": "Wuhan",
+      "addressRegion": "Hubei",
+      "addressCountry": "CN"
+    }
+  },
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "MediEscortChina",
+    "url": "https://www.mediescortchina.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MediEscortChina",
+  "alternateName": "Wuhan City Zhierchong Culture and Tourism Co., Ltd.",
+  "url": "https://www.mediescortchina.com",
+  "logo": "https://www.mediescortchina.com/images/logo.png",
+  "sameAs": [
+    "https://wa.me/8615527771775"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+86-155-2777-1775",
+    "contactType": "Customer Service",
+    "availableLanguage": [
+      "English",
+      "Chinese"
+    ],
+    "areaServed": "Worldwide"
+  }
+}
+</script>
+
+  <script src="js/security.js"></script>
+</head>
+<body>
+  <div class="top-bar" role="banner">
+    <div class="container">
+      <div class="hours"><span>Mon-Sun: 8:00 AM - 1:00 AM CST (UTC+8)</span></div>
+      <div><a href="tel:+8615527771775">+86-155-2777-1775</a><span style="margin:0 8px;">|</span><a href="mailto:sistian@foxmail.com">sistian@foxmail.com</a></div>
+    </div>
+  </div>
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <a href="index.html" class="logo"><span style="display:inline-flex; align-items:center; gap:12px;"><img src="images/logo.png" alt="MediEscortChina" style="height:42px; width:42px; border-radius:50%; object-fit:cover;"><span style="font-size:0.8rem; color:var(--gray-500); font-family:SimHei,Heiti SC,Microsoft YaHei,Noto Sans SC,sans-serif; letter-spacing:2px; white-space:nowrap; font-weight:600;">之二虫®</span></span><span style="display:inline-flex; flex-direction:column; line-height:1;"><span style="font-size:1.6rem; font-weight:800; letter-spacing:-0.5px; color:var(--navy);"><span style="color:var(--mint-dark);">Medi</span>Escort<span style="color:var(--coral);">China</span></span><small style="font-size:0.65rem; color:var(--gray-400); letter-spacing:1.5px; text-transform:uppercase; margin-top:2px;">Premium Medical Tourism</small></span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="why-china.html">Why China</a>
+        <a href="services.html">Services</a>
+        <a href="cities.html" class="active">Cities</a>
+        <a href="faq.html">FAQ</a>
+        <a href="blog.html">Blog</a>
+        <a href="quote.html">Get Quote</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="mobile-menu-btn" data-action="toggle-menu">☰</button>
+    </div>
+  </nav>
+
+  <section role="main" class="cities-hero">
+    <div class="container">
+      <h1>English Medical Escort Services in <span style="color:var(--mint-dark);">Major China Cities</span></h1>
+      <p>Professional hospital interpreter and medical escort for foreign patients in Beijing, Shanghai, Guangzhou, Shenzhen, and more.</p>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Tier-1 Cities</span>
+        <h2>China's Premier Medical Destinations</h2>
+        <p>Highest concentration of Grade-A Class-3 hospitals, international patient services, and cutting-edge medical technology.</p>
+      </div>
+      <div class="cities-grid">
+        <a href="cities/beijing.html" class="city-detail-card">
+          <div class="tier-label tier-1">Tier-1</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#1a5276,#2980b9);">🏛️</div>
+            <div class="city-info">
+              <h3>Beijing</h3>
+              <div class="specialty">Oncology · Endocrinology · Neurology</div>
+            </div>
+          </div>
+          <p class="city-desc">China's capital and political center. Peking Union Medical College Hospital ranks #1 in China. World-class cancer treatment, endocrine care, and neurosurgery.</p>
+          <div class="city-meta">
+            <span class="meta-tag">4+ Top Hospitals</span>
+            <span class="meta-tag">PET-MR Available</span>
+            <span class="meta-tag">Proton Therapy</span>
+          </div>
+          <span class="explore-link">Explore Beijing →</span>
+        </a>
+
+        <a href="cities/shanghai.html" class="city-detail-card">
+          <div class="tier-label tier-1">Tier-1</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#7d3c98,#8e44ad);">🌃</div>
+            <div class="city-info">
+              <h3>Shanghai</h3>
+              <div class="specialty">Cardiology · Plastic Surgery · IVF</div>
+            </div>
+          </div>
+          <p class="city-desc">China's financial capital with the highest density of international hospitals. Renowned for cardiac care, cosmetic surgery, and reproductive medicine.</p>
+          <div class="city-meta">
+            <span class="meta-tag">JCI Accredited</span>
+            <span class="meta-tag">Da Vinci Robots</span>
+            <span class="meta-tag">IVF Leaders</span>
+          </div>
+          <span class="explore-link">Explore Shanghai →</span>
+        </a>
+
+        <a href="cities/guangzhou.html" class="city-detail-card">
+          <div class="tier-label tier-1">Tier-1</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#1e8449,#27ae60);">🌺</div>
+            <div class="city-info">
+              <h3>Guangzhou</h3>
+              <div class="specialty">Nephrology · ENT · Ophthalmology</div>
+            </div>
+          </div>
+          <p class="city-desc">South China's medical hub with warm climate year-round. Leading kidney transplant center, advanced ENT surgery, and premier eye care facilities.</p>
+          <div class="city-meta">
+            <span class="meta-tag">Kidney Transplant</span>
+            <span class="meta-tag">ENT Surgery</span>
+            <span class="meta-tag">Warm Climate</span>
+          </div>
+          <span class="explore-link">Explore Guangzhou →</span>
+        </a>
+
+        <a href="cities/shenzhen.html" class="city-detail-card">
+          <div class="tier-label tier-1">Tier-1</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#d35400,#e67e22);">🏙️</div>
+            <div class="city-info">
+              <h3>Shenzhen</h3>
+              <div class="specialty">Reproductive Medicine · Urology · Orthopedics</div>
+            </div>
+          </div>
+          <p class="city-desc">China's Silicon Valley. Cutting-edge medical technology adoption, top reproductive medicine centers, and advanced orthopedic surgery with robotic assistance.</p>
+          <div class="city-meta">
+            <span class="meta-tag">Tech-Driven Care</span>
+            <span class="meta-tag">Robotic Surgery</span>
+            <span class="meta-tag">Near Hong Kong</span>
+          </div>
+          <span class="explore-link">Explore Shenzhen →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Tier-2 Cities</span>
+        <h2>Emerging Medical Hubs</h2>
+        <p>Excellent healthcare at even more affordable prices. Same Grade-A Class-3 hospitals, lower cost of living.</p>
+      </div>
+      <div class="cities-grid">
+        <a href="cities/wuhan.html" class="city-detail-card">
+          <div class="tier-label tier-2">Featured</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#c0392b,#e74c3c);">🌉</div>
+            <div class="city-info">
+              <h3>Wuhan</h3>
+              <div class="specialty">Organ Transplant · Cardiology · Ophthalmology</div>
+            </div>
+          </div>
+          <p class="city-desc">Our home base and one of China's top medical research hubs. World-leading organ transplant center, excellent cardiac care, and premier eye hospitals. Home of the Yellow Crane Tower.</p>
+          <div class="city-meta">
+            <span class="meta-tag">🏠 Home Base</span>
+            <span class="meta-tag">Organ Transplant #1</span>
+            <span class="meta-tag">~20% Lower Cost</span>
+          </div>
+          <span class="explore-link">Explore Wuhan →</span>
+        </a>
+
+        <a href="cities/hangzhou.html" class="city-detail-card">
+          <div class="tier-label tier-2">Tier-2</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#148f77,#1abc9c);">🏞️</div>
+            <div class="city-info">
+              <h3>Hangzhou</h3>
+              <div class="specialty">Hepatology · Orthopedics · TCM</div>
+            </div>
+          </div>
+          <p class="city-desc">Famous for West Lake and a rising medical destination. Leading liver disease treatment, sports medicine, and traditional Chinese medicine integration.</p>
+          <div class="city-meta">
+            <span class="meta-tag">Liver Disease</span>
+            <span class="meta-tag">Sports Medicine</span>
+            <span class="meta-tag">TCM Integration</span>
+          </div>
+          <span class="explore-link">Explore Hangzhou →</span>
+        </a>
+
+        <a href="cities/chongqing.html" class="city-detail-card">
+          <div class="tier-label tier-2">Tier-2</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#7f8c8d,#95a5a6);">🌶️</div>
+            <div class="city-info">
+              <h3>Chongqing</h3>
+              <div class="specialty">Burn Care · Neurology · Rehabilitation</div>
+            </div>
+          </div>
+          <p class="city-desc">Mountain city with China's top burn treatment center. Excellent neurology and rehabilitation facilities. Spicy food and stunning river views.</p>
+          <div class="city-meta">
+            <span class="meta-tag">Burn Care #1</span>
+            <span class="meta-tag">Neurology</span>
+            <span class="meta-tag">Rehabilitation</span>
+          </div>
+          <span class="explore-link">Explore Chongqing →</span>
+        </a>
+
+        <a href="cities/chengdu.html" class="city-detail-card">
+          <div class="tier-label tier-2">Tier-2</div>
+          <div class="city-header">
+            <div class="city-color" style="background: linear-gradient(135deg,#b7950b,#f1c40f);">🐼</div>
+            <div class="city-info">
+              <h3>Chengdu</h3>
+              <div class="specialty">General Medicine · Maternal Health · Dentistry</div>
+            </div>
+          </div>
+          <p class="city-desc">Home of the Giant Panda and a relaxed lifestyle. Strong general medicine, excellent maternal care, and quality dental services at very affordable prices.</p>
+          <div class="city-meta">
+            <span class="meta-tag">Panda Base</span>
+            <span class="meta-tag">Maternal Care</span>
+            <span class="meta-tag">Affordable Dentistry</span>
+          </div>
+          <span class="explore-link">Explore Chengdu →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Not Sure Which City?</h2>
+      <p>Our team will match your medical needs with the best hospital and city. Get a free consultation within 24 hours.</p>
+      <a href="contact.html" class="btn btn-primary" style="font-size:1.1rem;padding:16px 40px;">Get Free Recommendation →</a>
+    </div>
+  </section>
+
+  <footer class="footer" style="background:var(--navy); color:var(--gray-300); padding:64px 0 32px;" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid" style="margin-bottom:48px;">
+      
+      <!-- Brand Column -->
+      <div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+          <img loading="lazy" src="images/logo.png" alt="" style="height:40px; width:40px; border-radius:50%; object-fit:cover; opacity:0.9;">
+          <div>
+            <div style="font-size:12px; color:var(--gray-400); font-family:SimHei,Heiti SC,Microsoft YaHei,Noto Sans SC,sans-serif; letter-spacing:2px;">之二虫®</div>
+            <div style="font-size:18px; font-weight:700; color:var(--white);"><span style="color:var(--mint);">Medi</span>Escort<span style="color:var(--coral);">China</span></div>
+          </div>
+        </div>
+        <p style="font-size:14px; line-height:1.7; color:var(--gray-400); margin-bottom:20px; max-width:280px;">Wuhan City Zhierchong Culture and Tourism Co., Ltd. Connecting international patients with world-class Chinese healthcare since 2020.</p>
+        <div style="display:flex; gap:12px;">
+          <a href="#" data-action="open-qr" data-qr-type="whatsapp" style="width:32px; height:32px; display:flex; align-items:center; justify-content:center;" aria-label="WhatsApp"><img loading="lazy" src="images/whatsapp-btn-new.png" alt="WhatsApp" style="width:32px; height:32px; display:block;"></a>
+          <a href="#" data-action="open-qr" data-qr-type="wechat" style="width:32px; height:32px; display:flex; align-items:center; justify-content:center;" aria-label="WeChat"><img loading="lazy" src="images/wechat-btn.png" alt="WeChat" style="width:32px; height:32px; display:block;"></a>
+          <a href="mailto:sistian@qq.com?subject=MediEscortChina%20Inquiry" data-action="send-email" style="width:32px; height:32px; display:flex; align-items:center; justify-content:center; " aria-label="Email"><img loading="lazy" src="images/email-btn.png" alt="Email" style="width:32px; height:32px; display:block; "></a>
+        </div>
+      </div>
+      
+      <!-- Company Column -->
+      <div>
+        <h4 style="color:var(--white); font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:20px;">Company</h4>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:12px;">
+          <li><a href="about.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">About Us</a></li>
+          <li><a href="blog.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Patient Stories</a></li>
+          <li><a href="medical-innovation.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Medical Innovation</a></li>
+          <li><a href="license.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Business License</a></li>
+          <li><a href="contact.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Support Column -->
+      <div>
+        <h4 style="color:var(--white); font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:20px;">Support</h4>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:12px;">
+          <li><a href="faq.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">FAQ</a></li>
+          <li><a href="services.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Our Services</a></li>
+          <li><a href="prices.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Price Comparison</a></li>
+          <li><a href="escort-booking.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Book an Escort</a></li>
+          <li><a href="quote.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Get a Quote</a></li>
+        </ul>
+      </div>
+      
+      <!-- Legal Column -->
+      <div>
+        <h4 style="color:var(--white); font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:20px;">Legal</h4>
+        <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:12px;">
+          <li><a href="privacy.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Privacy Policy</a></li>
+          <li><a href="terms.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Terms of Service</a></li>
+          <li><a href="license.html" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Medical Tourism License</a></li>
+          <li><a href="#" style="color:var(--gray-400); text-decoration:none; font-size:14px; transition:color 0.2s;" onmouseover="this.style.color='var(--mint)'" onmouseout="this.style.color='var(--gray-400)'">Cookie Policy</a></li>
+        </ul>
+      </div>
+      
+    </div>
+    
+    <!-- Bottom Bar -->
+    <div style="border-top:1px solid rgba(255,255,255,0.1); padding-top:24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; max-width:1200px; margin:0 auto; padding:24px 20px 0;">
+      <p style="font-size:13px; color:var(--gray-500); margin:0;">© 2026 之二虫® MediEscortChina. All rights reserved. Licensed medical tourism operator (L-HUB-101603).</p>
+      <p style="font-size:13px; color:var(--gray-500); margin:0;">www.mediescortchina.com</p>
+    </div>
+  </div>
+</footer>
+
+  <a href="#" class="whatsapp-float" aria-label="Contact MediEscortChina on WhatsApp for medical tourism consultation" data-action="open-qr" data-qr-type="whatsapp" aria-label="Chat on WhatsApp"><img src="images/whatsapp-icon.png" alt="WhatsApp"></a>
+  <script src="js/main.js"></script>
+
+<!-- QR Code Modal -->
+<div id="qrModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center;" data-action="close-qr">
+  <div style="background:white; border-radius:16px; padding:32px; max-width:360px; width:90%; text-align:center; position:relative; cursor:default;" data-action="stop-propagation">
+    <button data-action="close-qr" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:24px; cursor:pointer; color:var(--gray-400);">&times;</button>
+    <img loading="lazy" id="qrImage" src="" alt="QR Code" style="width:200px; height:200px; border-radius:12px; margin:16px auto; display:block;">
+    <p id="qrMessage" style="font-size:14px; color:var(--gray-600); margin-top:16px; line-height:1.6;"></p>
+    <div style="margin-top:20px;">
+      <a id="qrLink" href="#" target="_blank" style="display:inline-block; padding:12px 24px; background:var(--coral); color:white; border-radius:8px; text-decoration:none; font-weight:600; font-size:14px;"></a>
+    </div>
+  </div>
+</div>
+
+<style>
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-8px); }
+  60% { transform: translateY(-4px); }
+}
+</style>
+</body>
+</html>

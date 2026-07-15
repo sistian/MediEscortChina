@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Book Medical Escort & Translation in China | MediEscortChina</title>
+<meta name="description" content="Book professional English medical escort and translation service in China. Real-time translation, hospital navigation, and appointment coordination.">
+<meta name="keywords" content="medical escort China, English interpreter hospital, medical translation China, hospital escort">
+<meta name="author" content="MediEscortChina">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#2B4C59">
+<link rel="canonical" href="https://www.mediescortchina.com/escort-booking.html">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="180x180" href="favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.escort-hero { background: linear-gradient(135deg, var(--navy) 0%, #3D6A7A 100%); color: var(--white); padding: 80px 0 60px; }
+.escort-hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 12px; }
+.escort-hero p { font-size: 1.1rem; opacity: 0.85; max-width: 600px; }
+.booking-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 40px; align-items: start; }
+.booking-form-card { background: var(--white); border-radius: var(--radius); padding: 40px; box-shadow: var(--shadow-md); border: 1px solid var(--gray-100); }
+.escort-sidebar { display: flex; flex-direction: column; gap: 20px; }
+.price-info-card { background: var(--white); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow-sm); border: 1px solid var(--gray-100); }
+.price-info-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 16px; color: var(--navy); }
+.price-info-item { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--gray-100); font-size: 0.85rem; }
+.form-group { margin-bottom: 20px; }
+.form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+.form-group label .required { color: var(--coral); }
+.form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px 16px; border: 1px solid var(--gray-200); border-radius: var(--radius-sm); font-size: 0.9rem; font-family: inherit; transition: var(--transition); background: var(--cream); }
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--mint); background: var(--white); box-shadow: 0 0 0 3px var(--mint-light); }
+.form-group textarea { min-height: 100px; resize: vertical; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.tier-select-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 20px; }
+.tier-option { background: var(--white); border: 2px solid var(--gray-200); border-radius: var(--radius); padding: 20px 12px; text-align: center; cursor: pointer; transition: var(--transition); }
+.tier-option:hover { border-color: var(--mint); transform: translateY(-2px); }
+.tier-option.selected { border-color: var(--mint); background: var(--mint-pale); box-shadow: 0 4px 16px rgba(149,188,204,0.2); }
+.tier-option .tier-name { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
+.tier-option .tier-desc { font-size: 0.75rem; color: var(--gray-500); margin-bottom: 8px; }
+.tier-option .tier-price { font-size: 1.2rem; font-weight: 800; color: var(--mint-dark); }
+.tier-option .tier-unit { font-size: 0.7rem; color: var(--gray-500); }
+.quote-display { background: linear-gradient(135deg, var(--navy) 0%, #3D6A7A 100%); color: var(--white); border-radius: var(--radius); padding: 24px; text-align: center; margin-bottom: 24px; }
+.quote-display .quote-label { font-size: 0.85rem; opacity: 0.8; margin-bottom: 4px; }
+.quote-display .quote-amount { font-size: 2.5rem; font-weight: 800; margin: 8px 0; }
+.quote-display .quote-detail { font-size: 0.8rem; opacity: 0.7; }
+.payment-section { background: var(--mint-pale); border-radius: var(--radius); padding: 24px; border-left: 4px solid var(--mint); }
+.payment-section h3 { font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 16px; }
+.qr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; text-align: center; }
+.qr-item { background: var(--white); border-radius: var(--radius-sm); padding: 16px; }
+.qr-item img { width: 140px; height: 140px; object-fit: contain; border-radius: var(--radius-sm); display: block; margin: 0 auto 8px; }
+.qr-item span { font-size: 0.8rem; color: var(--gray-600); }
+.whatsapp-section { margin-top: 16px; text-align: center; }
+.whatsapp-section a { display: inline-flex; align-items: center; gap: 8px; background: #25D366; color: white; padding: 12px 24px; border-radius: var(--radius-pill); font-weight: 600; text-decoration: none; }
+.included-list { display: flex; flex-direction: column; gap: 8px; }
+.included-item { display: flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--gray-600); }
+.included-item .check { color: var(--mint-dark); font-weight: 700; }
+@media (max-width: 1024px) { .booking-grid { grid-template-columns: 1fr; gap: 24px; } .tier-select-row { grid-template-columns: 1fr; } }
+@media (max-width: 768px) { .booking-grid { grid-template-columns: 1fr; } .escort-hero h1 { font-size: 2rem; } .escort-hero { padding: 60px 0 40px; } .booking-form-card { padding: 24px; } .form-row { grid-template-columns: 1fr; } .qr-grid { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .escort-hero h1 { font-size: 1.5rem; } .booking-form-card { padding: 16px; } .quote-display .quote-amount { font-size: 2rem; } }
+</style>
+<script src="js/security.js"></script>
+</head>
+<body>
+
+  <div class="top-bar" role="banner">
+    <div class="container">
+      <div class="hours"><span>Mon-Sun: 8:00 AM - 1:00 AM CST (UTC+8) | English-speaking staff available</span></div>
+      <div><a href="tel:+8615527771775">+86-155-2777-1775</a><span style="margin:0 8px;">|</span><a href="mailto:sistian@foxmail.com">sistian@foxmail.com</a></div>
+    </div>
+  </div>
+
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <a href="index.html" class="logo"><span style="display:inline-flex; align-items:center; gap:12px;"><img src="images/logo.png" alt="MediEscortChina" style="height:42px; width:42px; border-radius:50%; object-fit:cover;"><span style="font-size:0.8rem; color:var(--gray-500); font-family:SimHei,Heiti SC,Microsoft YaHei,Noto Sans SC,sans-serif; letter-spacing:2px; white-space:nowrap; font-weight:600;">之二虫®</span></span><span style="display:inline-flex; flex-direction:column; line-height:1;"><span style="font-size:1.6rem; font-weight:800; letter-spacing:-0.5px; color:var(--navy);"><span style="color:var(--mint-dark);">Medi</span>Escort<span style="color:var(--coral);">China</span></span><small style="font-size:0.65rem; color:var(--gray-400); letter-spacing:1.5px; text-transform:uppercase; margin-top:2px;">Premium Medical Tourism</small></span></a>
+      <div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="why-china.html">Why China</a><a href="services.html">Services</a><a href="cities.html">Cities</a><a href="faq.html">FAQ</a><a href="blog.html">Blog</a><a href="quote.html">Get Quote</a><a href="contact.html">Contact</a></div>
+      <button class="mobile-menu-btn" data-action="toggle-menu">☰</button>
+    </div>
+  </nav>
+
+  <section class="escort-hero">
+    <div class="container">
+      <h1>Book Your Medical Escort</h1>
+      <p>Professional English-speaking escorts for hospital visits across China. Real-time translation, hospital navigation, and appointment coordination.</p>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="container">
+      <div class="booking-grid">
+        <div class="booking-form-card">
+          <h2 style="font-size:1.5rem; font-weight:700; color:var(--navy); margin-bottom:8px;">Escort & Translation Booking</h2>
+          <p style="font-size:0.9rem; color:var(--gray-500); margin-bottom:24px;">Choose your escort tier and city. We'll calculate the price automatically.</p>
+
+          <form id="escortForm" action="https://formsubmit.co/sistian@foxmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New Escort Service Booking - MediEscortChina">
+            <input type="hidden" name="_next" value="https://www.mediescortchina.com/thank-you.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="booking_type" value="Escort & Translation Service">
+            <input type="hidden" name="price_per_day" id="pricePerDayInput">
+            <input type="hidden" name="total_price" id="totalPriceInput">
+
+            <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:12px;">1. Select Escort Tier</h3>
+            <div class="tier-select-row" id="tierSelect">
+              <div class="tier-option" data-tier="basic">
+                <div class="tier-name">Basic</div>
+                <div class="tier-desc">English translation + hospital navigation</div>
+                <div class="tier-price" id="basicPrice">$92</div>
+                <div class="tier-unit">per day (Tier-2 city)</div>
+              </div>
+              <div class="tier-option" data-tier="premium">
+                <div class="tier-name">Premium</div>
+                <div class="tier-desc">Translation + medical knowledge + logistics</div>
+                <div class="tier-price" id="premiumPrice">$157</div>
+                <div class="tier-unit">per day (Tier-2 city)</div>
+              </div>
+              <div class="tier-option" data-tier="expert">
+                <div class="tier-name">Expert</div>
+                <div class="tier-desc">Senior escort + medical background + VIP care</div>
+                <div class="tier-price" id="expertPrice">$230</div>
+                <div class="tier-unit">per day (Tier-2 city)</div>
+              </div>
+            </div>
+            <input type="hidden" name="escort_tier" id="escortTierInput" required>
+
+            <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:12px;">2. City & Duration</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>City <span class="required">*</span></label>
+                <select name="city" id="citySelect" required>
+                  <option value="">Select a city</option>
+                  <optgroup label="Tier-1 Cities">
+                    <option value="Beijing" data-tier="tier1">Beijing</option>
+                    <option value="Shanghai" data-tier="tier1">Shanghai</option>
+                    <option value="Guangzhou" data-tier="tier1">Guangzhou</option>
+                    <option value="Shenzhen" data-tier="tier1">Shenzhen</option>
+                  </optgroup>
+                  <optgroup label="Tier-2 Cities">
+                    <option value="Chengdu" data-tier="tier2">Chengdu</option>
+                    <option value="Hangzhou" data-tier="tier2">Hangzhou</option>
+                    <option value="Wuhan" data-tier="tier2">Wuhan</option>
+                    <option value="Chongqing" data-tier="tier2">Chongqing</option>
+                    <option value="Xi'an" data-tier="tier2">Xi'an</option>
+                    <option value="Nanjing" data-tier="tier2">Nanjing</option>
+                    <option value="Suzhou" data-tier="tier2">Suzhou</option>
+                    <option value="Tianjin" data-tier="tier2">Tianjin</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Number of Days <span class="required">*</span></label>
+                <input type="number" name="days" id="daysInput" min="1" max="14" value="1" required>
+              </div>
+            </div>
+
+            <div class="quote-display" id="quoteDisplay">
+              <div class="quote-label">Estimated Total</div>
+              <div class="quote-amount" id="quoteAmount">—</div>
+              <div class="quote-detail" id="quoteDetail">Select a city and tier to see pricing</div>
+            </div>
+
+            <h3 style="font-size:1rem; font-weight:700; color:var(--navy); margin-bottom:12px;">3. Your Details</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name <span class="required">*</span></label>
+                <input type="text" name="first_name" required placeholder="John">
+              </div>
+              <div class="form-group">
+                <label>Last Name <span class="required">*</span></label>
+                <input type="text" name="last_name" required placeholder="Smith">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Email <span class="required">*</span></label>
+              <input type="email" name="email" required placeholder="john@example.com">
+            </div>
+
+            <div class="form-group">
+              <label>Phone / WhatsApp <span class="required">*</span></label>
+              <input type="tel" name="phone" required placeholder="+1 234 567 8900">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Preferred Hospital</label>
+                <input type="text" name="preferred_hospital" placeholder="e.g. Peking Union Medical College Hospital">
+              </div>
+              <div class="form-group">
+                <label>Department / Specialty</label>
+                <select name="department">
+                  <option value="">Select department</option>
+                  <option value="General Medicine">General Medicine</option>
+                  <option value="Cardiology">Cardiology</option>
+                  <option value="Oncology">Oncology</option>
+                  <option value="Dermatology">Dermatology</option>
+                  <option value="Orthopedics">Orthopedics</option>
+                  <option value="ENT">ENT (Ear, Nose, Throat)</option>
+                  <option value="Dental">Dental</option>
+                  <option value="Ophthalmology">Ophthalmology</option>
+                  <option value="Gynecology">Gynecology</option>
+                  <option value="Urology">Urology</option>
+                  <option value="Endocrinology">Endocrinology</option>
+                  <option value="Neurology">Neurology</option>
+                  <option value="Gastroenterology">Gastroenterology</option>
+                  <option value="TCM">Traditional Chinese Medicine</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Preferred Date <span class="required">*</span></label>
+                <input type="date" name="preferred_date" required>
+              </div>
+              <div class="form-group">
+                <label>Arrival Date (if known)</label>
+                <input type="date" name="arrival_date">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Medical Needs / Notes</label>
+              <textarea name="notes" rows="3" placeholder="Describe your medical needs, any special requirements, or questions you have..."></textarea>
+            </div>
+
+            <div class="payment-section">
+              <h3>💳 Payment</h3>
+              <p style="font-size:0.85rem; color:var(--gray-600); margin-bottom:16px;">Please complete the payment after submitting this form. We'll confirm your booking within 24 hours.</p>
+              <div class="qr-grid">
+                <div class="qr-item" data-action="open-payment-qr" data-qr-type="alipay" style="cursor:pointer;">
+                  <img src="images/pay-alipay.png" alt="Alipay QR Code" style="width:180px; height:180px;">
+                  <span>Alipay — Click to enlarge</span>
+                </div>
+                <div class="qr-item" data-action="open-payment-qr" data-qr-type="paypal" style="cursor:pointer;">
+                  <img src="images/pay-paypal.png" alt="PayPal QR Code" style="width:180px; height:180px;">
+                  <span>PayPal — Click to enlarge</span>
+                </div>
+              </div>
+              <div class="whatsapp-section">
+                <a href="https://wa.me/8615527771775" target="_blank">📱 Chat on WhatsApp for Payment Help</a>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large" style="width:100%; margin-top:24px;">Submit Escort Booking Request</button>
+            <p style="text-align:center; margin-top:16px; font-size:0.85rem; color:var(--gray-400);">We'll confirm your booking within 24 hours via email or WhatsApp</p>
+          </form>
+        </div>
+
+        <div class="escort-sidebar">
+          <div class="price-info-card">
+            <h3>Escort Pricing</h3>
+            <p style="font-size:0.8rem; color:var(--gray-500); margin-bottom:12px;">All prices include 20% early-bird discount. Final quote depends on your specific dates and medical needs.</p>
+            <div class="price-info-item"><span style="font-weight:600;">Tier</span><span style="font-weight:600;">Tier-2</span><span style="font-weight:600;">Tier-1</span></div>
+            <div class="price-info-item"><span>Basic</span><span>$92/day</span><span>$136/day</span></div>
+            <div class="price-info-item"><span>Premium</span><span>$157/day</span><span>$231/day</span></div>
+            <div class="price-info-item"><span>Expert</span><span>$230/day</span><span>$340/day</span></div>
+          </div>
+
+          <div class="price-info-card">
+            <h3>What's Included</h3>
+            <div class="included-list">
+              <div class="included-item"><span class="check">✓</span><span>English-speaking escort</span></div>
+              <div class="included-item"><span class="check">✓</span><span>Hospital appointment booking</span></div>
+              <div class="included-item"><span class="check">✓</span><span>Real-time translation</span></div>
+              <div class="included-item"><span class="check">✓</span><span>Transportation assistance</span></div>
+              <div class="included-item"><span class="check">✓</span><span>24/7 support</span></div>
+              <div class="included-item"><span class="check">✓</span><span>Hotel & logistics help</span></div>
+            </div>
+          </div>
+
+          <div class="price-info-card">
+            <h3>Need Help?</h3>
+            <p style="font-size:0.85rem; color:var(--gray-600); margin-bottom:16px;">Contact us directly via WhatsApp for instant assistance.</p>
+            <a href="https://wa.me/8615527771775" class="btn btn-primary" style="width:100%; justify-content:center;">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" style="background:var(--navy); color:var(--gray-300); padding:64px 0 32px;" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo" style="color:var(--white); margin-bottom:16px;"><span style="color:var(--mint);">Medi</span>Escort<span style="color:var(--coral);">China</span></div>
+          <p style="font-size:0.85rem; opacity:0.7; line-height:1.7; margin-bottom:20px;">Professional English medical escort and hospital guide service for international patients in China.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Full Body Checkup</a></li>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Dental Care</a></li>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">TCM</a></li>
+            <li><a href="services.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Surgery</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Cities</h4>
+          <ul>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Beijing</a></li>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Shanghai</a></li>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Guangzhou</a></li>
+            <li><a href="cities.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">View All</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">About Us</a></li>
+            <li><a href="blog.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Blog</a></li>
+            <li><a href="contact.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Contact</a></li>
+            <li><a href="privacy.html" style="font-size:0.85rem; color:var(--gray-200); opacity:0.7;">Privacy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom" style="border-top:1px solid rgba(255,255,255,0.08); padding:20px 0; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+        <p style="font-size:0.75rem; opacity:0.5;">© 2026 MediEscortChina. Wuhan City Zhierchong Culture and Tourism Co., Ltd.</p>
+        <p style="font-size:0.75rem; opacity:0.5;"><a href="license.html" style="color:var(--gray-200);">Business License</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="whatsapp-float" data-action="open-qr" data-qr-type="whatsapp" aria-label="Chat on WhatsApp"><img src="images/whatsapp-icon.png" alt="WhatsApp"></a>
+
+  <div class="modal-overlay" id="qrModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:9999; justify-content:center; align-items:center;" data-action="close-qr-overlay">
+    <div style="background:var(--white); border-radius:var(--radius-lg); padding:32px; max-width:380px; width:90%; text-align:center; box-shadow:var(--shadow-xl); position:relative;" data-action="stop-propagation">
+      <button data-action="close-qr" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:var(--gray-400); cursor:pointer;">×</button>
+      <h3 style="font-size:1.2rem; font-weight:700; color:var(--navy); margin-bottom:8px;">Scan to Chat</h3>
+      <p style="font-size:0.9rem; color:var(--gray-600); margin-bottom:20px;">Scan the QR code with your phone</p>
+      <img src="images/whatsapp-qr.png" alt="WhatsApp QR" style="width:100%; max-width:280px; border-radius:var(--radius-sm);">
+      <p style="font-size:0.85rem; color:var(--gray-400); margin-top:16px;">Or message us: +86-155-2777-1775</p>
+    </div>
+  </div>
+
+  <!-- Payment QR Modal -->
+  <div class="modal-overlay" id="paymentQRModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:9999; justify-content:center; align-items:center; padding:24px;" data-action="close-payment-qr-overlay">
+    <div style="background:var(--white); border-radius:var(--radius-lg); padding:32px; max-width:460px; width:100%; text-align:center; box-shadow:var(--shadow-xl); position:relative;" data-action="stop-propagation">
+      <button data-action="close-payment-qr" style="position:absolute; top:12px; right:16px; background:none; border:none; font-size:1.5rem; color:var(--gray-400); cursor:pointer;">×</button>
+      <h3 style="font-size:1.2rem; font-weight:700; color:var(--navy); margin-bottom:8px;" id="paymentQRTitle">Scan to Pay</h3>
+      <p style="font-size:0.9rem; color:var(--gray-600); margin-bottom:20px;">Scan the QR code with your phone to complete payment</p>
+      <img id="paymentQRImage" src="" alt="Payment QR" style="width:100%; max-width:360px; border-radius:var(--radius-sm); display:block; margin:0 auto;">
+      <p style="font-size:0.85rem; color:var(--gray-400); margin-top:16px;">After payment, please send a screenshot to us via WhatsApp</p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+  (function() {
+    const prices = {
+      tier2: { basic: 92, premium: 157, expert: 230 },
+      tier1: { basic: 136, premium: 231, expert: 340 }
+    };
+    const tierOptions = document.querySelectorAll('.tier-option');
+    const citySelect = document.getElementById('citySelect');
+    const daysInput = document.getElementById('daysInput');
+    const quoteAmount = document.getElementById('quoteAmount');
+    const quoteDetail = document.getElementById('quoteDetail');
+    const escortTierInput = document.getElementById('escortTierInput');
+    const pricePerDayInput = document.getElementById('pricePerDayInput');
+    const totalPriceInput = document.getElementById('totalPriceInput');
+    let selectedTier = null;
+
+    tierOptions.forEach(function(opt) {
+      opt.addEventListener('click', function() {
+        tierOptions.forEach(function(o) { o.classList.remove('selected'); });
+        this.classList.add('selected');
+        selectedTier = this.dataset.tier;
+        escortTierInput.value = selectedTier;
+        calculateQuote();
+      });
+    });
+
+    if (citySelect) citySelect.addEventListener('change', calculateQuote);
+    if (daysInput) daysInput.addEventListener('input', calculateQuote);
+
+    function calculateQuote() {
+      const cityOption = citySelect ? citySelect.selectedOptions[0] : null;
+      const cityTier = cityOption ? cityOption.dataset.tier : null;
+      const days = parseInt(daysInput ? daysInput.value : 1, 10) || 1;
+      if (!selectedTier || !cityTier) {
+        quoteAmount.textContent = '—';
+        quoteDetail.textContent = 'Select a city and tier to see pricing';
+        return;
+      }
+      const perDay = prices[cityTier][selectedTier];
+      const total = perDay * days;
+      quoteAmount.textContent = '$' + total;
+      quoteDetail.textContent = '$' + perDay + ' x ' + days + ' day' + (days > 1 ? 's' : '') + ' | ' + cityTier.replace('tier','Tier-') + ' City';
+      if (pricePerDayInput) pricePerDayInput.value = '$' + perDay;
+      if (totalPriceInput) totalPriceInput.value = '$' + total;
+    }
+
+    const form = document.getElementById('escortForm');
+    if (form) {
+      form.addEventListener('submit', function(e) {
+        if (!selectedTier) {
+          e.preventDefault();
+          alert('Please select an escort tier (Basic, Premium, or Expert).');
+          return;
+        }
+        const required = form.querySelectorAll('[required]');
+        let valid = true;
+        required.forEach(function(field) {
+          if (!field.value.trim()) {
+            valid = false;
+            field.style.borderColor = 'var(--coral)';
+          } else {
+            field.style.borderColor = '';
+          }
+        });
+        if (!valid) {
+          e.preventDefault();
+          alert('Please fill in all required fields.');
+        }
+      });
+    }
+  })();
+
+  (function() {
+    const qrModal = document.getElementById('qrModal');
+    if (!qrModal) return;
+    document.querySelector('.whatsapp-float')?.addEventListener('click', function(e) {
+      e.preventDefault();
+      qrModal.style.display = 'flex';
+    });
+    qrModal.addEventListener('click', function(e) {
+      if (e.target === qrModal) qrModal.style.display = 'none';
+    });
+    const closeBtn = qrModal.querySelector('[data-action="close-qr"]');
+    if (closeBtn) closeBtn.addEventListener('click', function() { qrModal.style.display = 'none'; });
+  })();
+
+  // Payment QR Modal
+  (function() {
+    const paymentQRModal = document.getElementById('paymentQRModal');
+    const paymentQRImage = document.getElementById('paymentQRImage');
+    const paymentQRTitle = document.getElementById('paymentQRTitle');
+    if (!paymentQRModal) return;
+
+    document.addEventListener('click', function(e) {
+      const target = e.target.closest('[data-action]');
+      if (!target) return;
+      const action = target.dataset.action;
+      if (action === 'open-payment-qr') {
+        e.preventDefault();
+        const qrType = target.dataset.qrType;
+        if (qrType === 'alipay') {
+          paymentQRImage.src = 'images/pay-alipay.png';
+          paymentQRTitle.textContent = 'Scan with Alipay';
+        } else if (qrType === 'paypal') {
+          paymentQRImage.src = 'images/pay-paypal.png';
+          paymentQRTitle.textContent = 'Scan with PayPal';
+        }
+        paymentQRModal.style.display = 'flex';
+      }
+      if (action === 'close-payment-qr') {
+        paymentQRModal.style.display = 'none';
+      }
+    });
+    paymentQRModal.addEventListener('click', function(e) {
+      if (e.target === paymentQRModal) paymentQRModal.style.display = 'none';
+    });
+  })();
+  </script>
+</body>
+</html>
