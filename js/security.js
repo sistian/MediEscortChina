@@ -150,7 +150,7 @@
       if (form.tagName !== 'FORM') return;
 
       // 6.1 蜜罐字段检测（防机器人）
-      const honeypot = form.querySelector('input[name="website"], input[name="url"], input[name="company_website"]');
+      const honeypot = form.querySelector('input[name="website"], input[name="url"], input[name="company_website"], input[name="_honey"], input[name="_gotcha"]');
       if (honeypot && honeypot.value.trim() !== '') {
         securityLog('HONEYPOT_BOT_DETECTED', { form: form.action || location.href });
         e.preventDefault();
@@ -228,7 +228,7 @@
   // ============================================================
   // 9. 禁用右键/F12/开发者工具（生产环境）
   // ============================================================
-  if (location.hostname === 'www.MediEscortChina.com' || location.hostname === 'MediEscortChina.com') {
+  if (location.hostname === 'www.mediescortchina.com' || location.hostname === 'mediescortchina.com') {
     document.addEventListener('contextmenu', function(e) {
       if (e.target.tagName === 'IMG' || e.target.closest('.price-table')) {
         e.preventDefault();
@@ -255,7 +255,7 @@
   // ============================================================
   // 11. 控制台信息防泄露（生产环境隐藏详细错误）
   // ============================================================
-  if (location.hostname === 'www.MediEscortChina.com' || location.hostname === 'MediEscortChina.com') {
+  if (location.hostname === 'www.mediescortchina.com' || location.hostname === 'mediescortchina.com') {
     const originalConsoleError = console.error;
     console.error = function(...args) {
       // 过滤掉敏感信息泄露
@@ -282,12 +282,12 @@
     // 检测页面中是否存在可疑的外部脚本
     const scripts = document.querySelectorAll('script[src]');
     const allowedDomains = [
-      'MediEscortChina.com',
+      'mediescortchina.com',
+      'www.mediescortchina.com',
       'cdnjs.cloudflare.com',
       'fonts.googleapis.com',
       'fonts.gstatic.com',
-      'unpkg.com',
-      'formsubmit.co'
+      'unpkg.com'
     ];
 
     for (const script of scripts) {

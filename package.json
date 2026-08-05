@@ -1,0 +1,6 @@
+{
+  "name": "mediescortchina-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Controllable Vercel backend for MediEscortChina form submissions. Replaces formsubmit.co with a self-hosted SendGrid email handler."
+}

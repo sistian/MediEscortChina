@@ -16,6 +16,9 @@ RewriteCond %{HTTP_HOST} !^www\. [NC]
 RewriteRule ^(.*)$ https://www.MediEscortChina.com/$1 [R=301,L]
 
 # ----- 4. 屏蔽敏感路径（404响应，不暴露存在性）-----
+# 注意：如果使用 Vercel 一体化部署（推荐），.htaccess 不生效，/api/submit 由 Vercel 函数处理。
+# 如果使用 Apache 部署纯静态前端 + 独立 Vercel 后端，/api/submit 请求会由浏览器直接发到 Vercel，
+# 这条规则不会拦截（请求不经过 Apache）。只有当你把 api/ 目录也放到 Apache 下并想用它时才需排除 /api/submit。
 RewriteRule ^(admin|test|backup|config|debug|api|backend|wp-admin|wp-login|phpmyadmin|cgi-bin|shell|cmd|console|manage)/ - [R=404,L,NC]
 RewriteRule ^(\.env|\.git|\.svn|\.htaccess|\.htpasswd|config\.json|package\.json|composer\.json) - [R=404,L,NC]
 
@@ -66,7 +69,7 @@ ServerSignature Off
 
 # ----- 9. 禁用危险 HTTP 方法 -----
 <IfModule mod_rewrite.c>
-    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|OPTIONS|HEAD)
+    RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|HEAD)
     RewriteRule .* - [F]
 </IfModule>
 

@@ -1,18 +1,20 @@
+# MediEscortChina robots.txt
+# https://www.mediescortchina.com/robots.txt
+
 User-agent: *
 Allow: /
 Disallow: /thank-you.html
-Disallow: /*?
 Disallow: /api/
+Disallow: /*?
 Crawl-delay: 1
 
-# Allow Googlebot full access
+# Search engine crawlers
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-# Allow image indexing
 User-agent: Googlebot-Image
 Allow: /images/
 
@@ -23,4 +25,29 @@ Disallow: /
 User-agent: AhrefsBot
 Disallow: /
 
-Sitemap: https://www.MediEscortChina.com/sitemap.xml
+User-agent: DotBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SearchmetricsBot
+Disallow: /
+
+Sitemap: https://www.mediescortchina.com/sitemap.xml
+
+# Sensitive paths
+Disallow: /.env
+Disallow: /.env.local
+Disallow: /.env.production
+Disallow: /.git/
+Disallow: /.htaccess
+Disallow: /.htpasswd
+Disallow: /admin/
+Disallow: /backup/
+Disallow: /config/
+Disallow: /debug/
+Disallow: /test/
+Disallow: /tmp/
+Disallow: /*.bak$
+Disallow: /*.backup$
