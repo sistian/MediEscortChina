@@ -7,7 +7,7 @@
   <title>
    Free Medical Escort Quote | China
   </title>
-  <meta content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.mediescortchina.com; connect-src 'self'; frame-src 'self'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests;" http-equiv="Content-Security-Policy"/>
+  <meta content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://www.mediescortchina.com; connect-src 'self'; frame-src 'self'; base-uri 'self'; form-action 'self' https://mediescortchina-backend-api.vercel.app; upgrade-insecure-requests;" http-equiv="Content-Security-Policy"/>
   <meta content="telephone=no, date=no, address=no, email=no, url=no" name="format-detection"/>
   <meta content="Get a free quote for English medical escort and hospital guide in China. Full body checkup, dental, TCM, surgery. 70% cheaper than US. No obligation." name="description"/>
   <meta content="free quote medical tourism China, medical trip cost, hospital price estimate" name="keywords"/>
@@ -203,7 +203,7 @@
       <p style="color:var(--gray-600); margin-bottom: 32px; font-size: 0.9rem;">
        Fill in the form below. We will email you a detailed plan and price breakdown.
       </p>
-      <form action="/api/submit" id="quoteForm" method="POST" novalidate="">
+      <form action="https://mediescortchina-backend-api.vercel.app/api/submit" id="quoteForm" method="POST" novalidate="">
        \n
        <input aria-hidden="true" autocomplete="off" name="website" placeholder="Do not fill" style="position:absolute;left:-9999px;opacity:0;" tabindex="-1" type="text"/>
        <input name="_subject" type="hidden" value="📋 MediEscortChina - New Quote Request"/>
